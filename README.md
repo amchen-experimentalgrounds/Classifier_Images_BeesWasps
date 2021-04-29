@@ -12,20 +12,20 @@ Solutions exist, but they are old, ineffective and risky to human and environmen
 For example, Glyphosate is one of the most used herbicides worldwide, and was classified as "probably carcinogenic in humans" by the World Health Organisation's International Agency for Research on Cancer.
 In general, many chemical approaches have not been ideal for solving challenging issues, due to risks which can quickly spread. (See: DDT)
 
-I propose a different approach relying on AI and robotics.
+I proposed a different approach relying on AI and robotics.
 This approach involves using computer vision to identify pests. This can be used alone as a surveillance tool.
 A more ambitious solution would integrate this with automated elimination systems, which would have several advantages.
 There are no likely side effects which occur beyond the immediate action of elimiating a pest (eg. substances spilling into waterways).
 Pests cannot "evolve" to evade AI-enabled solutions. AI re-training is faster than resistance caused by evolution.
 
-Our project does not address the elmination side in detail.
+Our project did not address the elmination side in detail.
 
 The task of identifying pests can be complex. 
 The AI must be able to distinguish pests from non-pests. 
 There are many different types of pests, and training a model can be difficult.
 A solution which requires minimal training data and fast model construction is scalable, cost-efficeint and thus ideal.
 
-To achieve this, our model utilises a transfer learning approach (MobileNetV2), and augments image data.
+To achieve this, our model utilised a transfer learning approach (MobileNetV2), and expanded the number of training examples by augmenting the image data.
 We trained this model to distinguish bees and wasps, which look similar.
 Our model achieved a performance (measured by accuracy) of greater than 90%, which exceeded a 54% baseline.
 Ultimately, we concluded that transfer-learning approaches are ideal for the problem of distinguishing pests and non-pests.
