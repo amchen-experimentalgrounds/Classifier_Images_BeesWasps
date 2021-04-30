@@ -15,7 +15,7 @@ I proposed a different approach relying on AI and robotics. This approach involv
 
 # The project: can computer vision identify pests?
 
-(Our project did not address the elmination side in detail.)
+(Our project did not address the elimination side in detail.)
 
 The task of identifying pests can be complex. The AI must be able to distinguish pests from non-pests. There are many different types of pests, and training a model can be difficult. A solution which is fast to train and requires minimal data will be scalable, cost-efficient and thus ideal.
 
