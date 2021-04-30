@@ -1,4 +1,5 @@
-These are the files for a group project done for the subject Applied Data Science (MAST30034) at The University of Melbourne.
+These are project files for the subject Applied Data Science (MAST30034).
+This group  project was done in Semester 2, 2020 at The University of Melbourne.
 
 The task was inspired by real-world problems. 
 
@@ -20,14 +21,15 @@ Pests cannot "evolve" to evade AI-enabled solutions. AI re-training is faster th
 
 Our project did not address the elmination side in detail.
 
-The task of identifying pests can be complex. 
-The AI must be able to distinguish pests from non-pests. 
-There are many different types of pests, and training a model can be difficult.
-A solution which requires minimal training data and fast model construction is scalable, cost-efficeint and thus ideal.
+The task of identifying pests can be complex. The AI must be able to distinguish pests from non-pests. There are many different types of pests, and training a model can be difficult.
+A solution which is fast to train and requires minimal data will be scalable, cost-efficient and thus ideal.
 
 To achieve this, our model utilised a transfer learning approach (MobileNetV2), and expanded the number of training examples by augmenting the image data.
 We trained this model to distinguish bees and wasps, which look similar.
 Our model achieved a performance (measured by accuracy) of greater than 90%, which exceeded a 54% baseline.
 Ultimately, we concluded that transfer-learning approaches are ideal for the problem of distinguishing pests and non-pests.
 
-In the future, I intend to extend this project further by reducing the quality and availability of training data.
+In the future, I intend to extend this project further by reducing the quality and availability of training data. This will be an important area to further study, as it will make the technology accessible to less developed regions.
+
+AI + ROBOTICS IN THE FIELD
+April 28, 2021: Vehicle uses 12 cameras and CO2 lasers to kill weeds: https://web.archive.org/web/20210430031736/https://www.intelligentliving.co/autonomous-robot-lasers-kill-weeds/
